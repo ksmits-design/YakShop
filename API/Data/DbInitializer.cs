@@ -6,7 +6,7 @@ namespace API.Data
 {
     public static class DbInitializer
     {
-        public static void Initialize(StoreContext context)
+        public static void Initialize(HerdContext context)
         {
             if (context.Products.Any()) return;
 
@@ -22,6 +22,26 @@ namespace API.Data
                     Shaveable = true,
                     DaysLastShaved = 7
                 },
+                 new Herd
+                {
+                    Name = "Yak-2",
+                    Age = 8,
+                    Sex ="Female",
+                    Milk = 12.8,
+                    Brand = "NetCore",
+                    Shaveable = true,
+                    DaysLastShaved = 7
+                },
+                     new Herd
+                {
+                    Name = "Yak-3",
+                    Age = 9.5,
+                    Sex ="Female",
+                    Milk = 12.8,
+                    Brand = "NetCore",
+                    Shaveable = true,
+                    DaysLastShaved = 7
+                }
 
             };
 
