@@ -21,7 +21,7 @@ namespace API.Data
                     PictureUrl = "/images/products/sb-ang1.png",
                     Brand = "Angular",
                     Type = "Boards",
-                    QuantityInStock = 100
+                    DaysLastShaved = 100
                 },
                 new Herd
                 {
@@ -31,7 +31,7 @@ namespace API.Data
                     PictureUrl = "/images/products/sb-ang2.png",
                     Brand = "Angular",
                     Type = "Boards",
-                    QuantityInStock = 100
+                    DaysLastShaved = 100
                 },
                 new Herd
                 {
@@ -41,7 +41,7 @@ namespace API.Data
                     PictureUrl = "/images/products/sb-core1.png",
                     Brand = "NetCore",
                     Type = "Boards",
-                    QuantityInStock = 100
+                    DaysLastShaved = 100
                 },
 
             };
